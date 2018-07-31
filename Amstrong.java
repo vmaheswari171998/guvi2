@@ -20,9 +20,9 @@ class Ideone
         }
 
         if(total == num)
-            System.out.println(num + " is an Armstrong number");
+            System.out.println("Yes");
         else
-            System.out.println(num + " is not an Armstrong number");
+            System.out.println("No");
     }
 }
 

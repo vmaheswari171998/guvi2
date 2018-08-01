@@ -10,13 +10,12 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number");
-		int a=sc.nextInt();
-		sum=0;
-		for(i=1;i<n;i++)
+		int n=sc.nextInt();
+		int sum=0;
+		for(i=1;i<=n;i++)
 		{
 			sum=sum+i;
 		}
-		System.out.println("sum");
+		System.out.println(sum);
 	}
 }

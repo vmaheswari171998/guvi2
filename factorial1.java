@@ -15,7 +15,8 @@ class Ideone
 		for(i=1;i<=n;i++)
 		{
 			fact=fact*i;
-			System.out.println(fact);
 		}
+			System.out.println(fact);
+		
 	}
 }

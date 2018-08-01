@@ -28,7 +28,6 @@ class Ideone
 			sum+=a[i];
 		}
 		System.out.println(sum);
-		}
 		
 	}
 }

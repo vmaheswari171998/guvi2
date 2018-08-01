@@ -5,23 +5,21 @@ import java.lang.*;
 import java.io.*;
 
 /* Name of the class has to be "Main" only if the class is public. */
-class Ideone
+class count
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number");
 		int a=sc.nextInt();
 		int count=0;
-		if(a !=0)
+		int r=0;
+		while(a !=0)
 		{
-			a=a/10;
+			r=a/10;
 			++count;
+			a=a/10;
 		}
-		else
-		{
-			System.out.println("count");
-		}
+		System.out.println(count);
 	}
-	
 }

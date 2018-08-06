@@ -21,7 +21,7 @@ class Ideone
 		}
 		if(n1==rev)
 		
-			System.out.println("Yes");
+			System.out.println("yes");
 		
 		else
 		

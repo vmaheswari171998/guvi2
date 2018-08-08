@@ -10,14 +10,14 @@ class Ideone
 	public static void main (String[] args) throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt();
+		int num=sc.nextInt();
 		int rev=0,n1=n;
 		int rem;
 		while(n !=0)
 		{
-			rem=n%10;
+			rem=num%10;
 			rev=rev*10+rem;
-			n=n/10;
+			num=num/10;
 		}
 		if(n1==rev)
 		

@@ -17,6 +17,6 @@ class Ideone
 		if(res%2==0)
 			System.out.println("even");
 		else
-			System.out.println("no");
+			System.out.println("odd");
 	}
 }

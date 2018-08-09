@@ -6,7 +6,6 @@ public class Prime {
         boolean flag = false;
         for(int i = 2; i <= num/2; ++i)
         {
-            // condition for nonprime number
             if(num % i == 0)
             {
                 flag = true;
@@ -15,9 +14,9 @@ public class Prime {
         }
 
         if (!flag)
-            System.out.println(num + " is a prime number.");
+            System.out.println("yes");
         else
-            System.out.println(num + " is not a prime number.");
+            System.out.println("no");
     }
 }
-When you run
+

@@ -14,6 +14,6 @@ class Ideone
 		if(ch>='0' && ch<='9')
 			System.out.println("yes");
 		else
-			System.out.println("no");
+			System.out.println("No");
 	}
 }

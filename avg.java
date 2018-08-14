@@ -17,7 +17,7 @@ class Ideone
 		int d=sc.nextInt();
 		int e=sc.nextInt();
 		int sum=a+b+c+d+e;
-		float avg=sum/n;
+		int avg=sum/n;
 		System.out.println(avg);
 	}
 }

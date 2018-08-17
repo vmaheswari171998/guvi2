@@ -9,15 +9,15 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		 int n, a = 0, b = 0, c = 1;
+		 int n, p = 0, q = 0, cr = 1;
 		 Scanner s = new Scanner(System.in);
 		 n = s.nextInt();
 		for(int i = 1; i <= n; i++)
 		{
-			a = b;
-			 b = c;
-			 c = a + b;
-			 System.out.print(a+" ");
+			p = q;
+			 q = r;
+			 r = p + q;
+			 System.out.print(p+" ");
 		}
 	}	
 }

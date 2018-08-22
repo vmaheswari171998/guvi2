@@ -11,6 +11,6 @@ class Ideone
 	{
 		Scanner sc=new Scanner(System.in);
 		String ch=sc.nextLine();
-		System.out.println(ch);
+		System.out.println(ch+".");
 	}
 }
